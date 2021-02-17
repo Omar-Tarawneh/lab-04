@@ -1,0 +1,36 @@
+main {
+    width: 480px;
+    height: 858px;
+    margin: auto;
+    text-align: center;
+}
+.box-a {
+    width: 100%;
+    height:8.741258741258741%;
+}
+.box-b {
+    width: 100%;
+    height: 17.48251748251748%;
+}
+.first-box{
+    width:100%;
+    height: 29.13752913752914% ;
+}
+.second-box{
+    width:100%;
+    height: 58.27505827505828%;
+}
+.box-c, .box-d {
+    width: 100%;
+    height: 50%;
+}
+.box-e, .box-f, .box-g, .box-h {
+    margin: auto;
+    width: 50%;
+    height: 50%;
+}
+
+.box-i{
+    width: 100%;
+    height: 9.324009324009324%;
+}
