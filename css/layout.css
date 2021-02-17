@@ -1,0 +1,10 @@
+.second-box{
+    display: flex;
+    flex-wrap:wrap;
+}
+.box-a,.box-b,.box-c,.box-d,.box-e, .box-f, .box-h, .box-g, .box-i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

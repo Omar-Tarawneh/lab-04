@@ -1,0 +1,125 @@
+/* Desktop  screen size greater than 800px*/
+@media (min-width: 800px){
+    body{
+        height: 800px;
+        width: 1000px;
+        margin: auto;
+    }
+    main{
+        height: 700px;
+        width: 96.2%;
+        margin:  5% auto;
+        padding: auto;
+    }
+    div{
+        display: inline-block;
+    }
+    .first-box{
+        float:right;
+        display: flex;
+        height: 28.57142857142857%;
+        width: 79.1666666667%;
+    }
+    .box-c, .box-d{
+        width: 50%;
+        height: 100%;
+    }
+    .box-a{
+        background-color: midnightblue;
+        height: 14.28571428571429%;
+        width: 100%;
+        line-height: 100px;        
+    }
+    .box-b{
+        background-color: olive;
+        float: left;
+        height:85.71428571428571%;
+        width: 20.8333333333%;
+    }
+    .second-box{
+        float: right;
+        height: 35.71428571428571% ;
+        width: 79.1666666667%;
+        flex-wrap: nowrap;
+    }
+    .box-e, .box-f, .box-g, .box-h{
+        width: 25%;
+        height: 100%;
+    }
+    .box-c{
+        background-color: rgb(235, 187, 66);
+    }
+    .box-d{
+        background-color: rgb(201, 106, 238);
+    }
+    .box-e{
+        background-color: rgb(110, 42, 158);
+    }
+    .box-f{
+        background-color: rgb(106, 144, 156);
+    }
+    .box-g{
+        background-color: rgb(62, 128, 62);
+    }
+    .box-h{
+        background-color: rgb(107, 77, 62);
+    }
+    .box-i{
+        background-color: mediumpurple;
+        clear: initial;
+        float: right;
+        height: 21.42857142857143%;
+        width: 79.1666666667%;
+        line-height: 150px;
+    }
+    
+}
+/* Tablet screen size between 600px and 800px*/
+@media only screen and (max-width: 800px) and (min-width: 600px){
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.2fr 0.5fr 2fr 2fr;
+        width: 645px;
+    }
+    .box-a{
+        background-color: dimgray;
+        height: auto;
+        grid-column-start: 1;
+        grid-column-end: 3;
+
+    }
+    .box-b{
+        background-color: #469990;
+        height: auto;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .box-c{
+        background-color: goldenrod;
+    }
+    .box-d{
+        background-color: hotpink;
+    }
+    .box-e{
+        background-color: indigo;
+    }
+    .box-f{
+        background-color: lightblue;
+    }
+    .box-g{
+        background-color: lightgreen;
+    }
+    .box-h{
+        background-color: maroon;
+    }
+    .first-box, .second-box{
+        height: auto;
+    }
+    .box-i{
+        background-color: #aaffc3;
+        height: 18%;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}
